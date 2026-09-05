@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container mx-auto flex justify-between items-center py-[16px]">
+            <a href="./index.html" class="block">
+                <img src="./images/logo (3).png" alt="Логотип">
+            </a>
+            <div class="flex gap-[16px] items-center">
+                <a href="./category.html">
+                    <button
+                        class="text-[16px] text-[white] font-[400] bg-[#70C05B] py-[8px] px-[30px] rounded-[4px] mx-[16px] cursor-pointer hover:bg-[#5da04c] transition-colors">Каталог</button>
+                </a>
+                <input
+                    class="px-[20px] py-[8px] rounded-[4px] border border-[#70C05B] outline-none focus:border-[#5da04c]"
+                    placeholder="Найти товар" type="text">
+            </div>
+            <div class="flex gap-[24px] items-center">
+                <a href="#" class="hover:opacity-80 transition-opacity">
+                    <img src="./images/MainMenu.png" alt="Избранное">
+                </a>
+                <a href="#" class="hover:opacity-80 transition-opacity">
+                    <img src="./images/MainMenu (1).png" alt="Заказы">
+                </a>
+                <a href="./store.html" class="relative hover:opacity-80 transition-opacity flex items-center">
+                    <img src="./images/MainMenu (2).png" alt="Корзина">
+                    <span id="header-cart-badge"
+                        class="absolute -top-2 -right-2 bg-[#FF6633] text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center hidden">0</span>
+                </a>
+                <a href="#" class="hover:opacity-80 transition-opacity">
+                    <img src="./images/UserMenuItem.png" alt="Профиль">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-[#F9F4E2]">
+            <div class="container mx-auto">
+                <div>
+                    <h1 class="font-[400] text-[12px] pt-[27px] pb-[27px]">Главная > О компании</h1>
+                </div>
+                <div class="flex justify-between pb-[120px]">
+                    <div>
+                        <h1 class="font-[700] text-[64px] pb-[16px]">О компании</h1>
+                        <p class="font-[700] text-[24px] text-[#FF6633]">Мы непрерывно развиваемся и работаем над
+                            совершенствованием сервиса, заботимся о наших клиентах, стремимся к лучшему будущему.</p>
+                    </div>
+                    <div>
+                        <img src="./images/Group 7104.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between pb-[120px]">
+                    <div class="max-w-[217px] w-full">
+                        <p class="font-[400] text-[20px] pb-[16px]">Мы занимаемся розничной торговлей</p>
+                        <h1 class="font-[700] text-[24px]">Более 20 лет.</h1>
+                    </div>
+                    <div class="max-w-[315px] w-full">
+                        <p class="font-[400] text-[20px] pb-[16px]">Основная миссия компании</p>
+                        <h1 class="font-[700] text-[24px]">Максимальное качество товаров и услуг по доступной цене.</h1>
+                    </div>
+                    <div class="max-w-[405px] w-full">
+                        <p class="font-[400] text-[20px] pb-[16px]">Отличительная черта нашей сети</p>
+                        <h1 class="font-[700] text-[24px]">Здоровая и полезная продукция местного производства внаших
+                            магазинах.</h1>
+                    </div>
+                </div>
+                <div class="flex justify-center pb-[80px]">
+                    <img src="./images/Frame 309.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="father2" class="bg-[#F9F4E2]">
+        <div class="container mx-auto py-[24px]">
+            <div class="flex justify-between items-center">
+                <img src="./images/logo (4).png" alt="">
+                <ul class="text-[12px] font-[400] gap-[40px] flex">
+                    <li>О компании</li>
+                    <li>Контакты</li>
+                    <li>Вакансии</li>
+                    <li>Статьи</li>
+                    <li>Политика обработки персональных данных</li>
+                </ul>
+                <img src="./images/Frame 190.png" alt="">
+            </div>
+            <div class="flex justify-end">
+                <img src="./images/Frame 215.png" alt="">
+            </div>
+    </footer>
+
+</body>
+
+</html>

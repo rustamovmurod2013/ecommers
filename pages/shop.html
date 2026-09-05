@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container mx-auto flex justify-between items-center py-[16px]">
+            <a href="./index.html" class="block">
+                <img src="./images/logo (3).png" alt="Логотип">
+            </a>
+            <div class="flex gap-[16px] items-center">
+                <a href="./category.html">
+                    <button
+                        class="text-[16px] text-[white] font-[400] bg-[#70C05B] py-[8px] px-[30px] rounded-[4px] mx-[16px] cursor-pointer hover:bg-[#5da04c] transition-colors">Каталог</button>
+                </a>
+                <input
+                    class="px-[20px] py-[8px] rounded-[4px] border border-[#70C05B] outline-none focus:border-[#5da04c]"
+                    placeholder="Найти товар" type="text">
+            </div>
+            <div class="flex gap-[24px] items-center">
+                <a href="#" class="hover:opacity-80 transition-opacity">
+                    <img src="./images/MainMenu.png" alt="Избранное">
+                </a>
+                <a href="#" class="hover:opacity-80 transition-opacity">
+                    <img src="./images/MainMenu (1).png" alt="Заказы">
+                </a>
+                <a href="./store.html" class="relative hover:opacity-80 transition-opacity flex items-center">
+                    <img src="./images/MainMenu (2).png" alt="Корзина">
+                    <span id="header-cart-badge"
+                        class="absolute -top-2 -right-2 bg-[#FF6633] text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center hidden">0</span>
+                </a>
+                <a href="#" class="hover:opacity-80 transition-opacity">
+                    <img src="./images/UserMenuItem.png" alt="Профиль">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-[#F9F4E2]">
+            <div class="container mx-auto pb-[80px]">
+                <div class="font-[400] text-[12px] pt-[24px] pb-[24px]">
+                    <h1>Главная > Корзина</h1>
+                </div>
+                <div class="font-[700] text-[64px] pb-[60px]">
+                    <h1>Корзина</h1>
+                </div>
+                <div>
+                    <div>
+                        <div class="flex gap-[40px] pb-[24px]">
+                            <h1 class="font-[400] text-[12px] text-[#606060]">Выделить всё</h1>
+                            <h2 class="font-[400] text-[12px] text-[#FF6633]">Удалить выбранные</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div>
+                            <div
+                                class="flex max-w-[876px] w-full bg-[white] justify-between items-center py-[10px] px-[8px] mb-[24px]">
+                                <div>
+                                    <img src="./images/Item (5).png" alt="">
+                                </div>
+                                <div>
+                                    <p class="font-[400] text-[16px] pb-[10px]">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»
+                                    </p>
+                                    <h1 class="font-[700] text-[12px]">44,50₽ за шт.</h1>
+                                </div>
+                                <div>
+                                    <button
+                                        class="font-[400] text-[16px] text-[#FFFFFF] bg-[#70C05B] py-[8px] px-[8px] text-center max-w-[100px] w-full rounded-[4px]">-
+                                        2 +</button>
+                                </div>
+                                <div>
+                                    <p class="font-[700] text-[18px]">89,00₽</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex max-w-[876px] w-full bg-[white] justify-between items-center py-[10px] px-[8px]  mb-[24px]">
+                                <div>
+                                    <img src="./images/Item (5).png" alt="">
+                                </div>
+                                <div>
+                                    <p class="font-[400] text-[16px] pb-[10px]">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»
+                                    </p>
+                                    <h1 class="font-[700] text-[12px]">44,50₽ за шт.</h1>
+                                </div>
+                                <div>
+                                    <button
+                                        class="font-[400] text-[16px] text-[#FFFFFF] bg-[#70C05B] py-[8px] px-[8px] text-center max-w-[100px] w-full rounded-[4px]">-
+                                        2 +</button>
+                                </div>
+                                <div>
+                                    <p class="font-[700] text-[18px]">89,00₽</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex max-w-[876px] w-full bg-[white] justify-between items-center py-[10px] px-[8px] mb-[24px]">
+                                <div>
+                                    <img src="./images/Item (5).png" alt="">
+                                </div>
+                                <div>
+                                    <p class="font-[400] text-[16px] pb-[10px]">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»
+                                    </p>
+                                    <h1 class="font-[700] text-[12px]">44,50₽ за шт.</h1>
+                                </div>
+                                <div>
+                                    <button
+                                        class="font-[400] text-[16px] text-[#FFFFFF] bg-[#70C05B] py-[8px] px-[8px] text-center max-w-[100px] w-full rounded-[4px]">-
+                                        2 +</button>
+                                </div>
+                                <div>
+                                    <p class="font-[700] text-[18px]">89,00₽</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/Item (6).png" alt="">
+                            </div>
+                        </div>
+                        <div class="max-w-[272px] w-full">
+                            <div class="flex gap-[10px] pb-[20px]">
+                                <img src="./images/Background.png" alt="">
+                                <h1 class="font-[400] text-[16px] text-[#565656]">Списать 200 ₽ </h1>
+                            </div>
+                            <div class="pb-[50px]">
+                                <h1 class="font-[400] text-[16px] text-[#8F8F8F]">На карте накоплено 200 ₽ </h1>
+                            </div>
+                            <div class="flex justify-between pb-[10px]">
+                                <p class="font-[400] text-[16px] text-[#8F8F8F]">3 товара</p>
+                                <h1 class="font-[400] text-[16px]">258,10 ₽ </h1>
+                            </div>
+                            <div class="flex justify-between pb-[50px]">
+                                <p class="font-[400] text-[16px] text-[#8F8F8F]">Скидка</p>
+                                <h1 class="font-[700] text-[16px] text-[#FF6633]">-8,01 ₽ </h1>
+                            </div>
+                            <div class="flex justify-between">
+                                <p class="font-[400] text-[16px] text-[#8F8F8F]">Итог</p>
+                                <h1 class="font-[700] text-[24px]">250,09 ₽ </h1>
+                            </div>
+                            <div class="pb-[24px]">
+                                <h1 class="font-[400] text-[12px] text-[#70C05B]">Вы получяете 100 бонусов</h1>
+                            </div>
+                            <div class="pb-[16px]">
+                                <button
+                                    class="max-w-[215px] w-full [400] text-[12px] text-[#FFFFFF] bg-[#D80000] py-[3px] px-[8px] rounded-[4px] text-center">Минимальная
+                                    сумма заказа 1000р</button>
+                            </div>
+                            <div>
+                                <button
+                                    class="max-w-[272px] w-full font-[400] text-[24px] text-[#FF6633] bg-[#FCD5BA] rounded-[4px] py-[16px] px-[18px] text-center">Оформить
+                                    заказ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="father2" class="bg-[#F9F4E2]">
+        <div class="container mx-auto py-[24px]">
+            <div class="flex justify-between items-center">
+                <img src="./images/logo (4).png" alt="">
+                <ul class="text-[12px] font-[400] gap-[40px] flex">
+                    <li>О компании</li>
+                    <li>Контакты</li>
+                    <li>Вакансии</li>
+                    <li>Статьи</li>
+                    <li>Политика обработки персональных данных</li>
+                </ul>
+                <img src="./images/Frame 190.png" alt="">
+            </div>
+            <div class="flex justify-end">
+                <img src="./images/Frame 215.png" alt="">
+            </div>
+    </footer>
+
+</body>
+
+</html>
